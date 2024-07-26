@@ -76,7 +76,7 @@ Command: `hydra -l Elliot -P fsocity.dic 10.10.152.21 http-post-form "/wp-login.
 
 ![VirtualBox_kali-linux-2024 2-virtualbox-amd64_26_07_2024_01_55_26](https://github.com/user-attachments/assets/85f14756-1c5f-4a27-b014-3aea64248e35)
 
-Upon successful login, we can now upload plugins via the WordPress admin panel.
+Upon successful login, we can now upload script via the WordPress admin panel.
 
 ## Reverse Shell via WordPress Editor
 
@@ -84,7 +84,7 @@ Upon successful login, we can now upload plugins via the WordPress admin panel.
 
 Modify PHP Reverse Shell script
 
-<div style="background-color: black; color: white; padding: 5px; border-radius: 5px;">
+<div style="background-color: black; color: white; padding: 10px; border-radius: 10px;">
 <pre><code>
    https://github.com/pentestmonkey/php-reverse-shell
 </code></pre>
